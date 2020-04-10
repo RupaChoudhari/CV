@@ -1,0 +1,48 @@
+/* Counter style at-rule
+@counter-style single-emoji {
+  system: fixed;
+  symbols: "\1F3E1" "\1F4E7", "\1F4DE";
+  suffix: " ";
+}*/
+body{
+  padding: 2em;
+}
+.heading{
+  font-size : 30px;
+  color: blue;
+  font-weight: bold;
+}
+.role{
+  font-size : 20px;
+  color: blue;
+  font-weight:bold;
+
+}
+.box{
+  padding-left: 0em;
+  padding-right: 0em;
+  border: 1px solid;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.background-grey{
+  padding-right: 0.7em;
+  padding-left: 0.7em;
+  background-color: grey;
+  padding-bottom: 0.5em;
+  margin-bottom: 0em;
+  margin: 0em;
+}
+
+table{
+
+}
+li.add {
+  list-style-type: "\1F3E1";
+}
+li.mail {
+  list-style-type: "\1F4E7";
+}
+li.phone {
+  list-style-type: "\1F4DE";
+}
